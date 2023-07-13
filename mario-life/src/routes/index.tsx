@@ -15,11 +15,17 @@ export default component$(() => {
 });
 
 export const head: DocumentHead = {
-    title: "Welcome to Qwik",
+    title: "Mario Life",
     meta: [
         {
             name: "description",
-            content: "Qwik site description",
+            content: "A blog site about everything mario",
+        },
+    ],
+    links: [
+        {
+            rel: "stylesheets",
+            href: "somestylesheet.com/styles.css",
         },
     ],
 };
