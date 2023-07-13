@@ -28,7 +28,7 @@ export default component$(() => {
     useStyles$(styles);
     return (
         <div class="routesLayout">
-            <div class={styles.footerSeparator}>
+            <div class="footerSeparator">
                 <Header />
                 <main>
                     <Slot />
