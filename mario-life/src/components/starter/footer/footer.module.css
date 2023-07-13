@@ -21,3 +21,11 @@
         display: inline !important;
     }
 }
+
+.anchor span:first-child:hover {
+    text-decoration: underline black;
+}
+.anchor span:first-child:active {
+    text-decoration: underline pink;
+    text-decoration-thickness: 0.3rem;
+}
