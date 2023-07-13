@@ -24,6 +24,9 @@ export default component$(() => {
                 <li>
                     <Link href="/contact">Contact Us</Link>
                 </li>
+                <li>
+                    <Link href="/narrow">Narrow(test different template)</Link>
+                </li>
             </ul>
         </header>
     );
