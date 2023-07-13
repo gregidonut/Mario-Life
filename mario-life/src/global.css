@@ -29,13 +29,3 @@ h1, h2, h3, h4, h5 {
     color: black;
 }
 
-p {
-    text-align: justify;
-    padding: 0.5rem;
-}
-
-main article {
-    flex-direction: column;
-    display: flex;
-    align-items: center;
-}
