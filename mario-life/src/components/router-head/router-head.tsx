@@ -17,6 +17,7 @@ export const RouterHead = component$(() => {
             <link rel="icon" type="image/svg+xml" href="/cursed-mario.svg" />
 
             <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ysabeau+Infant" />
+            <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Press+Start+2P" />
 
             {head.meta.map((m) => (
                 <meta key={m.key} {...m} />
