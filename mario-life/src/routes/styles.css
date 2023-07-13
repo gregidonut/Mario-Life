@@ -215,6 +215,27 @@ button.button-small {
 separating footer form everything else to make it
 easier to flex it to the bottom
 */
+.routesLayout {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.routesLayout div {
+    width: 100%;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 
 .footerSeparator {
     display: flex;
